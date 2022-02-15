@@ -32,3 +32,9 @@
     color: rgb(206, 101, 255);
     transition-duration: 500ms;
 }
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0.8);
+}
