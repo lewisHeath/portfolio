@@ -1,0 +1,26 @@
+.project {
+    border: 1px solid red;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project > img {
+    height: 250px;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project-name {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.project-description {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

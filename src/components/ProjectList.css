@@ -1,0 +1,17 @@
+.projectList {
+    border: 1px solid #fff;
+    padding: 20px 50px;
+}
+
+.projectList-container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.projectList-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+}

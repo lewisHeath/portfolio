@@ -10,7 +10,6 @@ function Header() {
             </div>
             <div className="links">
                 <p>home()</p>
-                <p>about()</p>
                 <p>projects()</p>
             </div>
         </div>
