@@ -1,14 +1,22 @@
 .project {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 20px;
     overflow: hidden;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+    background-color: #1b1b1b;
+    transition: all .2s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.01);
 }
 
 .project > img {
-    height: 250px;
+    height: 350px;
+    object-fit: cover;
 }
 
 .project-details {
@@ -21,6 +29,12 @@
 }
 
 .project-description {
+    padding-top: 10px;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 300;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #fff;
 }

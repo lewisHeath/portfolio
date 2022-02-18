@@ -1,19 +1,21 @@
 import React from 'react'
 import './Project.css'
 
-function Project() {
+function Project({ name, description, link, image }) {
   return (
-    <div className='project'>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAElBMVEX8/vz///8pKikAAAAtLS2Oj47hKWeDAAABEElEQVR4nO3PBxEDMRAAMZcLf8p5GuuRGGjdO+dhc9f97afNmr1ets86hm2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2GfYZ9hn2Gfd9w9ttm3Tkvm/sHIDIKk6RLvD4AAAAASUVORK5CYII=" alt="" />
-        <div className='project-details'>
-            <div className='project-name'>
-                <p>Name</p>
-            </div>
-            <div className='project-description'>
-                <p>Description</p>
+      <a href={link} className='project-link'>
+        <div className='project'>
+            <img src={image} alt="" />
+            <div className='project-details'>
+                <div className='project-name'>
+                    <p>{name}</p>
+                </div>
+                <div className='project-description'>
+                    <p>{description}</p>
+                </div>
             </div>
         </div>
-    </div>
+      </a>
   )
 }
 
