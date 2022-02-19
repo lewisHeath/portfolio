@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a544a59b.css",
-    "main.js": "/portfolio/static/js/main.7b521c7b.js",
+    "main.css": "/portfolio/static/css/main.272bad9f.css",
+    "main.js": "/portfolio/static/js/main.c3d86a93.js",
+    "static/media/netflix.png": "/portfolio/static/media/netflix.47d8352ce0c183775a34.png",
+    "static/media/punks.png": "/portfolio/static/media/punks.9524e7c4d60289ccf981.png",
+    "static/media/CascadiaCode-SemiBold.otf": "/portfolio/static/media/CascadiaCode-SemiBold.5dd657742cc2f58be269.otf",
+    "static/media/CascadiaCode-Bold.otf": "/portfolio/static/media/CascadiaCode-Bold.b6b5c7ed573d1fa0bade.otf",
+    "static/media/notes.png": "/portfolio/static/media/notes.7c9bb7b6c8b1c95e40d7.png",
     "index.html": "/portfolio/index.html",
-    "main.a544a59b.css.map": "/portfolio/static/css/main.a544a59b.css.map",
-    "main.7b521c7b.js.map": "/portfolio/static/js/main.7b521c7b.js.map"
+    "main.272bad9f.css.map": "/portfolio/static/css/main.272bad9f.css.map",
+    "main.c3d86a93.js.map": "/portfolio/static/js/main.c3d86a93.js.map"
   },
   "entrypoints": [
-    "static/css/main.a544a59b.css",
-    "static/js/main.7b521c7b.js"
+    "static/css/main.272bad9f.css",
+    "static/js/main.c3d86a93.js"
   ]
 }
