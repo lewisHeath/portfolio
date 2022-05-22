@@ -10,7 +10,7 @@ function ProjectList() {
   return (
     <div className='projectList'>
         <div className='projectList-title'>
-            <h1>Projects()</h1>
+            <h1>Projects</h1>
         </div>
         <div className='projectList-container'>
             <Project name={"Netflix UI Clone"} description={"Created a netflix front end clone using react and tailwind css."} link={"https://zealous-booth-7f9816.netlify.app/"} image={netflix} /> 

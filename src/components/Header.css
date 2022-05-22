@@ -3,14 +3,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    /* border: 1px solid #fff; */
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .header-title {
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
-    font-family: 'cascSemi';
     transition: all .2s ease-in-out;
 }
 
@@ -22,7 +21,6 @@
     display: flex;
     align-items: center;
     font-weight: 800;
-    font-family: 'cascBold';
 }
 
 .links > p {
@@ -37,9 +35,9 @@
 }
 
 .header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    background-color: rgba(25, 25, 25, 0.8);
+    background-color: rgba(25, 25, 25, 0);
     z-index: 1;
 }
 
@@ -47,4 +45,9 @@
     height: 50px;
     /* border: 1px solid #fff; */
     margin-top: 5px;
+}
+
+.logo {
+    -webkit-filter: invert(1);
+   filter: invert(1);
 }

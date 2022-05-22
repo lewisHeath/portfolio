@@ -7,11 +7,11 @@ function Header() {
     <div className="header">
         <div className="header-container">
             <div className="header-title">
-                <img src={logo} alt="" />
+                <img src={logo} className="logo" alt="" />
             </div>
             <div className="links">
-                <p>home()</p>
-                <p>projects()</p>
+                <p>home</p>
+                <p>projects</p>
             </div>
         </div>
     </div>

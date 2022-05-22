@@ -1,11 +1,12 @@
 .projectList {
     /* border: 1px solid #fff; */
-    padding: 20px;
+    padding: 50px;
+    /* padding until screen gets to 600px wide */
 }
 
 .projectList-container {
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
@@ -14,5 +15,4 @@
     font-weight: bold;
     /* border: 1px solid blue; */
     margin-bottom: 20px;
-    font-family: 'cascBold';
 }

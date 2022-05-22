@@ -1,12 +1,12 @@
 .project {
-    /* border: 1px solid red; */
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
     overflow: hidden;
     height: 500px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    background-color: #1b1b1b;
+    /* background-color: #1b1b1b; */
     transition: all .2s ease-in-out;
 }
 
@@ -36,5 +36,6 @@
 
 .project-link {
     text-decoration: none;
-    color: #fff;
+    /* color: #fff; */
+    color: rgb(30, 30, 30);
 }
