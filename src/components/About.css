@@ -1,0 +1,31 @@
+@media (min-width: 1200px) {
+    .about {
+        /* margin of 200px on the sides */
+        margin: 0rem 10rem;
+    }
+}
+
+.about {
+    /* border: 1px solid #fff; */
+    padding: 0.5rem 1rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.link > a{
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+}

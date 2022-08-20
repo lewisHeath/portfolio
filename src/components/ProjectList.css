@@ -1,18 +1,32 @@
 .projectList {
     /* border: 1px solid #fff; */
-    padding: 50px;
+    /* padding: 50px; */
     /* padding until screen gets to 600px wide */
+    padding: 0.5rem 1rem;
+    padding-bottom: 50px;
 }
 
 .projectList-container {
     display: grid;
-    grid-gap: 4rem;
+    grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+/* media query for mobile */
+@media (min-width: 1200px) {
+    .projectList-container {
+        margin: 0rem 10rem;
+    }
+    .projectList-title {
+        margin: 0rem 10rem;
+    }
 }
 
 .projectList-title {
     font-size: 1.2rem;
     font-weight: bold;
     /* border: 1px solid blue; */
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
+
+

@@ -9,7 +9,10 @@ function Hero() {
                 <h1 className='actual-title'>Lewis Heath</h1>
             </div>
             <div className='hero-description'>
-                <p>Student at lancaster university studying computer science</p>
+                <p>
+                    Student studying Computer Science at Lancaster University,
+                    with a passion for web development and Blockchain technology.
+                </p>
             </div>
         </div>
     </div>

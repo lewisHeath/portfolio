@@ -10,8 +10,8 @@ function Header() {
                 <img src={logo} className="logo" alt="" />
             </div>
             <div className="links">
-                <p>home</p>
-                <p>projects</p>
+                {/* <p>home</p>
+                <p>projects</p> */}
             </div>
         </div>
     </div>
